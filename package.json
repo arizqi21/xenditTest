@@ -1,0 +1,23 @@
+{
+  "name": "xendit",
+  "version": "1.0.0",
+  "description": "xendit QA engineer challenge",
+  "main": "index.js",
+  "directories": {
+    "test": "tests"
+  },
+  "scripts": {
+    "test:api": "jest"
+  },
+  "author": "Aulia Rizqi",
+  "license": "ISC",
+  "dependencies": {
+    "dotenv": "^16.0.1",
+    "jest": "^28.1.3",
+    "path": "^0.12.7",
+    "supertest": "^6.2.4"
+  },
+  "devDependencies": {
+    "jest-extended": "^3.0.1"
+  }
+}
